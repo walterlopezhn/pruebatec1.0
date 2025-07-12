@@ -12,7 +12,6 @@ export class Pagina2Component implements OnInit {
   producto: Producto = { nombre: '', descripcion: '', precio: 0, existencia: 0 };
 
   constructor(private productoService: ProductoService) {}
-
   ngOnInit(): void {
     this.obtenerProductos();
   }

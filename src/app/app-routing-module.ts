@@ -8,7 +8,7 @@ import { Pagina3Component } from './pagina3/pagina3';
 
 
 const routes: Routes = [
-  
+  //rutas 
  {path: '', component: Home},
  {path: 'clientes', component: Pagina1Component},
  {path: 'productos', component: Pagina2Component },
